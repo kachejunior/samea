@@ -1,0 +1,41 @@
+.tableta{
+    margin:auto;
+    width: 95%;
+    padding-top: 10px;
+    border-collapse: collapse;
+    border: solid 4px #333;
+}
+
+.tr1{
+    background-color: #F0F0F0;
+    text-align: center;
+    height: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+    border-collapse: collapse;
+    border: 0px;
+    vertical-align: middle;
+}
+
+.tr1:nth-child(even){
+    background-color:#FFF;
+}
+
+.tr1:hover{
+    background-color:#910000;
+    color:#FFF;
+}
+
+.thead1{
+    background-color:#333;
+    color:#FFF;
+    text-align:center;
+    font-family:Verdana, Geneva, sans-serif;
+    border-collapse: collapse;
+    border: 0px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+td, th{
+    vertical-align: middle;
+}
